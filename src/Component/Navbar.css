@@ -1,0 +1,101 @@
+
+
+.navbar-div1{
+    height: 128px;
+position: absolute;
+    background-color: transparent;
+    padding-right: 0px; 
+    padding-left: 0px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    z-index: 9;
+}
+
+.nav-jawad-text1{
+  color: #FFF;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+text-transform: uppercase;
+}
+
+.nav-jawad-text1 span{
+color: #FFAD40;
+}
+
+
+.navbar-div1 div div img{
+margin-top: -10px;
+}
+
+.navbar-btn1 {
+  width: 310px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  border: 1px solid #f59c23;
+  background: linear-gradient(90deg, #f59c23 0.29%, #ffbb5d 99.77%);
+  color: #0b232b;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+
+.navbar-div1{
+    height: 110px;
+    padding-left: 08px;
+    padding-right: 08px;
+}
+
+.nav-jawad-text1 {
+    font-size: 18.5px;
+    line-height: 13px;
+    margin-bottom: 0px !important;
+}
+
+.navbar-btn1 {
+  width: 160px;
+  height: 38px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 125% */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+.navbar-btn1 svg{
+  width: 24px;
+  height: 24px;
+}
+
+}
